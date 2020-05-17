@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="fuzzy.FisiFuzzyCMeans">
+  <grid id="27dc6" binding="panel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="515" height="414"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e9ab6" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="30" bottom="0" right="0" weightx="1.0" weighty="1.0" ipadx="10"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c5f93" class="javax.swing.JButton" binding="generarButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="3" use-parent-layout="false"/>
+          <gridbag top="0" left="15" bottom="0" right="15" weightx="0.0" weighty="0.2" ipady="10"/>
+        </constraints>
+        <properties>
+          <text value="Generar"/>
+        </properties>
+      </component>
+      <component id="e4a0c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="4" use-parent-layout="false"/>
+          <gridbag top="0" left="30" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Número de Clusters"/>
+        </properties>
+      </component>
+      <component id="9b670" class="javax.swing.JButton" binding="seleccionarButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="30" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Seleccionar"/>
+        </properties>
+      </component>
+      <component id="c6400" class="javax.swing.JLabel" binding="fileName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="1f638" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="4" use-parent-layout="false"/>
+          <gridbag top="0" left="30" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Seleccionar archivo (.csv)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
